@@ -19,7 +19,7 @@ body {
 }
 
 body.splash {
-    background:url(/images/Flat_earth_night.jpg) top right no-repeat;
+    background:url(/images/Bridge.jpg) top right no-repeat;
     background-position: fixed;
     background-attachment: fixed;
 }
@@ -29,17 +29,17 @@ body.splash hr {
 }
 
 body.splash footer {
-    color: white;
+    color: black;
 }
 
 body.splash footer a {
-    color: white;
+    color: black;
 }
 
 div.bigverb {
     font-size: 36pt;
     display: block;
-    color: white;
+    color: black;
     opacity: 0.8;
     line-height: 1.6;
     font-family: 'Open Sans', sans-serif;
@@ -47,12 +47,12 @@ div.bigverb {
 }
 
 div.bigverb a {
-    color: white;
+    color: black;
 }
 
 div.bigverb a:hover {
     background: none;
-    color: gray;
+    color: orange;
 }
 
 div.bigverb .bignoun
@@ -63,10 +63,24 @@ div.bigverb .bignoun
 div.hero-unit {
     opacity: 0.8;
     font-family: 'Open Sans';
+    background: black;
+    color: white;
+}
+
+div.hero-unit a{
+    color: orange;
+}
+
+div.hero-unit a:hover{
+    color: orange;
 }
 
 div.hero-unit h1 {
     font-weight: 800;
+}
+
+div.hero-unit h2 {
+    font-weight: 400;
 }
 
 #problemarea, #problem-and-answer p {
