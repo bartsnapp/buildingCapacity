@@ -1,0 +1,52 @@
+<% if current_user %>
+<p>To learn mathematics, you must practice.  Even if you aren't entirely sure you will succeed, <strong>jump in!</strong>  Click on an exercise, and if you don't know what to do, ask for a <strong>hint</strong>.</p>
+<% else %>
+<div class="alert">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Login!</strong>  To do the practice exercises, you must first <%= link_to 'sign in to Coursera', user_omniauth_authorize_path(:coursera) %>.
+</div>
+<% end %>
+
+<% current_week = 15 %>
+
+<div class="accordion" id="accordion">
+<% for week in @exercises_by_weeks.keys.sort.reverse %>
+<% if week <= current_week %>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse<%= week %>">
+        <h4>Week <%= week %></h4>
+      </a>
+    </div>
+    <div id="collapse<%= week %>" class="accordion-body collapse <% if week == current_week %> in <% end %>">
+      <div class="accordion-inner">
+
+<table class="table table-striped">
+  <thead>
+   <tr>
+    <th>
+      Problem
+    </th> 
+    <% if user_signed_in? %>
+      <th>
+        Progress
+      </th>
+    <% end %>
+   </tr>
+  </thead>
+
+  <tbody>
+    <% @exercises_by_weeks[week].each do |exercise| %>
+      <%= render partial: "index_exercise", locals: { exercise: exercise } %>
+    <% end %>
+  </tbody>
+</table>
+
+        
+      </div>
+    </div>
+  </div>
+<% end %>
+<% end %>
+</div>
+

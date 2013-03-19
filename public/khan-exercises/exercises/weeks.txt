@@ -1,0 +1,131 @@
+* Week 1
+abscissaOrdinate
+plotPoint
+signedDistances
+pointOnFunction
+pointOnFunction2
+evaluatingFunctions
+isThisAFunctionPoints
+graphingFromEquation
+functionTransformationPointwise
+identifyPosNeg
+identifyIncreaseDecrease
+identifyMaxMin
+identifyConcavity
+limitsGraphical
+limitsOracleGraphical
+limitsOracle
+limitIndeterminateForms
+limitsSymbolic
+limitsFactoring
+limitCompute
+* Week 2
+infiniteLimitsGraphical
+infiniteLimitsOracleGraphical
+infiniteLimitsOracle
+limitsSymbolicInfinite
+limitComputeInfinite
+limitsAtInfinityGraphical
+limitsAtInfinityOracle
+limitsAtInfinitySymbolic
+limitsAtInfinityCompute
+continuityGraphical
+continuityOracleGraphical
+continuityOracle
+bisectionOracle
+continuityChooseConstant
+* Week 3
+linearTriangles1
+linearTriangles2
+linearOracle
+tangentLineIdea
+tangentLineIdeaSlope
+tangentLineIdeaSecant
+approxDeriv
+linearApprox
+derivativeOracle
+derivativeSign
+comparingFunctionAndDerivative
+differentiability
+derivativeDefinition
+differentiateUsingLimit
+repeatedLinApprox
+numChainRule
+* Week 4
+intuitiveCurveSketch
+productRulePoints
+productRuleTwoWays
+quotientRulePoints
+secondDerivativeSign
+testingRandFunction
+productRuleCompute
+increaseDecreaseDerivativePoint
+curveSketchPoints
+quotientRuleCompute
+differentiatePolynomial
+* Week 5
+chainRuleTable
+chainRule1
+chainRule2
+exponentiationDerivative
+exponentiationDerivative2
+logarithmDifferentiate
+ultimateWeek5
+inverseFunctionPoints
+inverseFunctionPointGraph
+inverseFunctionExpression
+tangentLineInverse
+inverseFunctionRulePoint
+* Week 6
+trigDifferentiate
+trigDifferentiate2
+inverseTrigDiff1
+inverseTrigDiff2
+* Week 7
+lhopital
+relatedRatesBacteria
+relatedRatesBoats
+relatedRatesShadowBuilding
+relatedRatesCow
+relatedRatesChronos
+relatedRatesWhale
+relatedRatesBubble
+* Week 8
+optimizationPrescribingExtrema
+optimizationInstallingPipe
+optimizationRectangleParabola
+optimizationPainting
+optimizationDrug
+optimizationBox
+optimizationCubic
+* Week 9
+slopeField
+slopeFieldPlay
+slopeFieldEQ
+eulerMethod
+newtonsMethod
+* Week 10
+antiderivativeSketchPlay
+comparingFunctionAndAntiderivative
+antiDifferentiationBasic
+antidifferentiatePolynomials
+antiDerivativeAffineTransformation
+antiDerivativeBasicChain
+antiDerivativeParts
+* Week 11
+basicSigma
+sigmaFormulas1
+sigmaFormulas2
+riemannSumIntegral
+riemannSumIntegralQuadratic
+smallRiemann
+areaValuedFunctionBehavior
+estimatingIntegrals
+integralSketch
+* Week 12
+wiggleInputIntegral
+FTOC2intuition
+definiteIntegralBasic
+definiteIntegralPolynomial
+definiteIntegralAffineShift
+definiteIntegralParts

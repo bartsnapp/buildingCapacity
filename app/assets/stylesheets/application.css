@@ -1,0 +1,137 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body.splash {
+    background:url(/images/Flat_earth_night.jpg) top right no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+body.splash hr {
+    display: none;
+}
+
+body.splash footer {
+    color: white;
+}
+
+body.splash footer a {
+    color: white;
+}
+
+div.bigverb {
+    font-size: 36pt;
+    display: block;
+    color: white;
+    opacity: 0.8;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+div.bigverb a {
+    color: white;
+}
+
+div.bigverb a:hover {
+    background: none;
+    color: gray;
+}
+
+div.bigverb .bignoun
+{
+    font-weight: 100;    
+}
+
+div.hero-unit {
+    opacity: 0.8;
+    font-family: 'Open Sans';
+}
+
+div.hero-unit h1 {
+    font-weight: 800;
+}
+
+#problemarea, #problem-and-answer p {
+    font-family: 'Computer Modern', serif;
+    font-size: 13pt;
+    line-height: 2.2;
+}
+
+#get-hint-button-container {
+  text-align:  center;
+}
+
+/*****************************************************************/
+/* to render LaTeX and TeX logos appropriately */
+
+.tex sub, .latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.tex sub, .latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.tex, .latex, .tex sub, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+
+/****************************************************************/
+/* About Us page */
+
+.developer_email {
+  float: right;
+  font-size: 75%;
+  font-weight: 100;
+}
+
+/****************************************************************/
+/* Some additions to the answer box */
+
+#scratchpad-button {
+    float: right;
+}
+
+#exercise-progress {
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+}
+
+.mathquill-editable {
+    width: 90%;
+}
+
+#solutionarea .tab-content {
+}
+
+#solutionarea .MathPreview {
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+}
