@@ -24,7 +24,7 @@
         <div class="nav-collapse">
           <ul class="nav">
             <li class="<%= 'active' if params[:controller] == 'explorations' && params[:action] != "progress" %>"><%= link_to raw("<i class='icon-truck'></i> Explorations"), :controller => "explorations", :action => "index" %></li> 
-            <li><a href="https://class.coursera.org/calc1-001/lecture/index"><i class="icon-film"></i> Lectures</a></li>
+            <li><a href="https://class.coursera.org/calc1-001/lecture/index"><i class="icon-film"></i> Videos</a></li>
             
             <li class="<%= 'active' if params[:controller] == 'exercises' && params[:action] != "progress" %>"><%= link_to raw("<i class='icon-pencil'></i> Exercises"), exercises_path %></li>
 
